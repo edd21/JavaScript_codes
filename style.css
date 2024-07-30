@@ -18,3 +18,18 @@
   background-color: black;
   color: rgb(247, 5, 5);
 }
+
+.button2{
+  background-color: rgb(5, 247, 13);
+  border-radius: 8px;
+  height: 25px;
+  width: 120px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float:middle;
+}
+
+.button2:hover{
+  background-color: black;
+  color: rgb(5, 247, 13);
+}

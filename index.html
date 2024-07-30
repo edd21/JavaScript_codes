@@ -7,24 +7,10 @@
     <title>Playing Javascript</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="script.js" defer></script>
   </head>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      function createParagraph() {
-        let para = document.createElement("p");
-        para.textContent = "You clicked the button!";
-        document.body.appendChild(para);
-      }
-
-      const buttons = document.querySelectorAll("button");
-
-      for (let i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener("click", createParagraph);
-      }
-    });
-  </script>
   <body>
-	<script src="index.js"></script>
-  <button class="button1"><i class="fas fa-power-off"></i> power off</button>
+  <button id="btn1" class="button1"><i class="fas fa-power-off"></i> power off</button>
+  <button id="btn2" onclick="changestyle()" class="button2"><i class="fas fa-power-off"></i> power on</button>
   </body>
 </html>
