@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  font-family: 'Oswald', Times, serif;
+}
+
+.button1{
+  background-color: rgb(247, 5, 5);
+  border-radius: 8px;
+  height: 25px;
+  width: 120px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float:middle;
+}
+
+.button1:hover{
+  background-color: black;
+  color: rgb(247, 5, 5);
+}
