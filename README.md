@@ -1,2 +1,2 @@
 # JavaScript_codes
-Repositorio ejercicios JavaScripts
+This is a repository for practicing JS
